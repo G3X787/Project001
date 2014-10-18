@@ -1,0 +1,510 @@
+@charset "utf-8";
+/* CSS Document */
+/*Site Styles*/
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+}
+
+.hidden {
+	display: none;
+}
+
+#logo {
+	display: block;
+	text-align: center;
+	margin: 30px auto;
+}
+
+#headerLine {
+	float: left;
+	width: 100%;
+	height: 1px;
+	border-bottom: thin solid #b7b7ad;
+	margin: 1px;
+}
+
+.centered {
+	display: block;
+	text-align: center;
+}
+
+#desktopNav{
+	display: block;
+}
+
+#mobileNav{
+	display: none;
+}
+
+#menuLeft{
+	display: none;
+
+}
+
+nav {
+	position: relative;
+	display: block;
+	text-align: center;
+	float: none;
+	width: 100%;
+	height: 40px;
+	margin: 0px auto;
+}
+
+nav ul {
+	float: none;
+	text-align: center;
+	list-style-type: none;
+	margin: 0px auto;
+}
+
+nav ul li {
+	float: left;
+	height: 40px;
+	border-right: thin solid #b7b7ad;
+}
+
+.lastNav {
+	border: none;
+}
+
+nav ul li a {
+	display: block;
+	position: relative;
+	top: 0px;
+	text-decoration: none;
+	color: #161515;
+	padding: 10px 10px;
+}
+
+#mainImg {
+	display: block;
+	width: 100%;
+	max-width: 1600px;
+	float: none;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.mobileMargin {
+	margin: 0px 20px;
+}
+
+.spacing{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.smallTitle {
+	font-size: 1.15em;
+}
+
+.largeTitle {
+	font-size: 3em;
+}
+
+.subheading {
+	line-height: .85em;
+}
+
+footer {
+	font-size: .85em;
+}
+
+.footerTitle {
+	font-size: 1.5em;
+}
+
+.footerAbout {
+	margin-right: 80px;
+	margin-top: 20px;
+}
+
+.mrLogo{
+	display: block;
+	position: relative;
+	top: 30px;
+}
+
+#copyright {
+	text-align: center;
+	background: #161515;
+	width: 100%;
+	height: 50px;
+}
+
+#copyright p {
+	color: #fff;
+	padding-top: 18px;
+}
+
+/*Home Styles*/
+.homeFeatures {
+ margin-top: 50px;
+}
+
+.homeTitle {
+	line-height: .5em;
+}
+
+.homeSubheading {
+	font-size: 1.25em;
+	line-height: .5em;
+	margin-top: -20px;
+}
+
+.featuresImg {
+ margin: 10px;
+}
+
+.featuresText {
+ margin: 40px 10px;
+}
+
+.homeImgs {
+ position: relative;
+ top: 20px;
+ left: 0px;
+ z-index: 1;
+}
+
+.imageTag {
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ z-index: 2;
+}
+
+#homeMap {
+ width: 100%;
+ max-width: 780px;
+ min-height: 370px;
+}
+
+.locationDescription{
+	line-height: 39px;
+}
+
+/*Video Styles*/
+
+.videoArea{
+	width: 100%;
+}
+
+/*Amenities Styles*/
+
+.amenitiesParagraph{
+	font-size: 1.1em;
+	text-align: left;
+	line-height: 39px;
+	color: #161515;
+}
+
+.amenitiesBulletPointParagraph{
+	text-align: left;
+	line-height: 39px;
+	color: #161515;
+}
+
+.subTitle{
+	font-weight: bold;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.braamsLogo{
+	display: block;
+	position: relative;
+	top: 167px;
+}
+
+/*History Styles*/
+
+#historyText {
+	line-height: 39px;
+	max-width: 1200px;
+	padding: 0px 20px 20px 20px;
+	margin: 20px;
+}
+
+#gallery {
+	width: 100%;
+	max-width: 1200px;
+}
+
+/*Floor Plans Styles*/
+#suiteNav {
+	list-style-type: none;
+	margin-top: 100px;
+}
+
+#suiteNav li {
+	text-align: left;
+	padding: 10px;
+}
+
+#suiteNav li:hover {
+	cursor: pointer;
+	color: #fff;
+	background: #161515;
+}
+
+#suiteNav li span {
+	float: right;
+}
+
+.currentSuite {
+	color: #fff;
+	background: #161515;
+}
+
+#layoutTitle {
+	font-size: 1.25em;
+ 	font-weight: bold;
+	margin-top: 40px;
+ 	margin-left: 38px;
+}
+
+#pdfLink {
+ 	float: right;
+ 	text-decoration: none;
+ 	font-size: .85em;
+ 	color: #fff;
+ 	background: #161515;
+ 	padding: 5px;
+ 	margin-top: 0px;
+ 	margin-right: 32px;
+}
+
+#layoutDescript {
+	margin: 35px;
+}
+
+/*Location Styles*/
+
+.locationMaps{
+	width: 100%;
+}
+
+.stMarysIFrame{
+	width: 100%;
+}
+
+.livingInStMarysLink{
+	position: relative;
+	top: 5px;
+	text-decoration: none;
+	color: #161515;
+
+}
+
+
+/*Contact Styles*/
+
+.formMargin {
+	float: none;
+	margin: 10px auto;
+}
+
+
+
+.formName {
+
+  font-size: 1.1em;
+  float: left;
+  margin-left: -50px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.textInputs {
+  border-style:solid;
+  border-color: #231f20;
+  border-width:2px;
+  height: 40px;
+  width: 60%;
+  margin-left: 50px;
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 15px;
+  background-color:transparent;
+}
+  
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #231f20;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #231f20;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #231f20;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #231f20;
+}
+
+input[type=text]{ color:#231f20;}
+input[type=email]{ color:#231f20;}
+input[type=text]:focus{ color:#231f20;}
+
+.textInputsMessage {
+  border-style:solid;
+  border-color: #231f20;
+  border-width:2px;
+  color: #231f20;
+  height: 100px;
+  width: 60%;
+  position: relative;
+  bottom: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+#sendButton {
+
+  margin-left: 75%;
+  background:transparent;
+  border: 0px;
+  cursor: pointer;
+  width: 50px;
+  height: 80px;
+  background-image: url(../images/submitButton.svg);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.addressContact{
+	display: block;
+	text-align: left;
+	margin-left: 21%;
+	width: 25%;
+	line-height: 25px;
+}
+
+
+/*Common Mobile Styles*/
+
+@media only screen and (max-width: 1024px) {
+
+.aboutUs{
+	text-align: center;
+}
+
+.contactUs{
+	text-align: center;
+}
+
+.mrLogo{
+	display: block;
+	position: relative;
+	float: none;
+	text-align: center;
+	margin: 0px auto;
+	top: 0px;
+}
+
+}
+
+/*Contact Mobile Styles*/
+
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+/*Experimental Nav*/
+
+#desktopNav{
+	display: none;
+}
+#mobileNav{
+	display: block;
+}
+
+#menuLeft{
+	float: left;
+	left: 20px;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	background-image: url(../images/menu.png);
+  	background-size: 50px;
+ 	background-repeat: no-repeat;
+ 	border: none;
+}
+
+nav {
+	position: fixed;
+	display: block;
+	text-align: center;
+	float: none;
+	height: 40px;
+	margin: 0px auto;
+	background: #161515;
+	width: 230px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+nav ul{
+	position: relative;
+	top: 50px;
+}
+
+nav ul li {
+	float: left;
+	height: 40px;
+	border-right: none;
+	margin-bottom: 10px;
+}
+
+nav ul li a {
+	position: relative;
+	display: block;
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-bottom: 25px;
+	padding: 1em;
+}
+
+nav ul li a:hover {
+	background: #fff;
+	color: #161515;
+}
+
+nav ul li a:active {
+	background: #161515;
+	color: #161515;
+}
+
+nav {
+	right: -240px;
+}
+
+nav.mobileMenu-Open {
+	right: 0px;
+}
+
+nav{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+
+
+

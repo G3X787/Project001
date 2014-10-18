@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Central School Manor | Floor Plans</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
+    <header>
+    	<h1 class="hidden">Welcome to Central School Manor</h1>
+        <div class="row">
+            <div class="small-12 large-12 column">
+                <img src="images/logo.png" alt="Central School Manor" id="logo">
+            </div>
+        </div>
+        <div id="headerLine"></div>
+        <div class="row">
+            <div class="small-7 small-centered large-6 centered column">
+                <nav id="desktopNav">
+                    <h2 class="hidden">Site Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="floorplans.html">Floor Plans</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li class="lastNav"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="small-12 column">
+                <nav id="mobileNav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="floorplans.html">Floor Plans</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li class="lastNav"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="menuLeft"></button>
+            </div>
+        </div>
+    </header>
+    <section>
+    	<h1 class="hidden"></h1>
+    	<div>
+        	<img src="images/floorplansImage.jpg" alt="Main Image" id="mainImg">
+        </div>
+        <div class="row">
+        	<div class="small-12 large-4 column">
+            	<ul id="suiteNav">
+                	<li id="0">1B Geometry Suite<span>1350 Sq. Ft.</span></li>
+                    <li id="1">1C Music Suite<span>1355 Sq. Ft.</span></li>
+                    <li id="2">1D Biology Suite<span>910 Sq. Ft.</span></li>
+                    <li id="3">1E Drama Suite<span>1150 Sq. Ft.</span></li>
+                    <li id="4">2A Physics Suite<span>1580 Sq. Ft.</span></li>
+                    <li id="5">2B Chemistry Suite<span>1200 Sq. Ft.</span></li>
+                    <li id="6">2C Library Suite<span>1765 Sq. Ft.</span></li>
+                    <li id="7">2D Astronomy Suite<span>1200 Sq. Ft.</span></li>
+                    <li id="8" class="currentSuite">2E Mathematics Suite<span>950 Sq. Ft.</span></li>
+                    <li id="9">2F Poetry Suite<span>970 Sq. Ft.</span></li>
+                    <li id="10">3A English Suite<span>1900 Sq. Ft.</span></li>
+                    <li id="11">3B Geography Suite<span>1750 Sq. Ft.</span></li>
+                    <li id="12">3C History Suite<span>1900 Sq. Ft.</span></li>
+                    <li id="13">3D Science Suite<span>970 Sq. Ft.</span></li>
+                </ul>
+            </div>
+            <div class="small-12 large-8 column">
+            	<p id="layoutTitle">2E - Mathematics Suite - 950Sq. Ft.</p>
+                <img src="images/Suite_2E.png" alt="Suite_2E" id="layoutImg">
+                <a id="pdfLink" href="pdf/Suite_2E.pdf" target="_blank">Click to Enlarge</a>
+                <br><br>
+                <p id="layoutDescript">A one bedroom suite with exposed brick walls in the dining room and wonderful east views.</p>
+            </div><br><br><br>
+        </div>
+<!--         <div class="row">
+        	<div class="small-12 large-6 column">
+            	<img src="" alt="Window View">
+            </div>
+            <div class="small-12 large-6 column">
+            	<img src="" alt="Kitchen View">
+            </div>
+        </div> -->
+    </section>
+    <footer>
+        <div class="row">
+            <div class="small-12 large-6 column aboutUs">
+                <p class="footerAbout">"Central School Manor is a condominium conversion like no other. Truly a rare opportunity to own a piece of history in the making."</p>
+            </div>
+            <div class="small-12 large-3 column contactUs">
+                <p class="footerTitle">Contact Us</p>
+                <p>
+                    Mike Ebert:<br>
+                    519-859-1900<br><br>
+                    Ray Doerksen<br>
+                    519-581-0129
+                </p>
+            </div>
+            <div class="small-12 large-3 column">
+                <img class="mrLogo" src="images/MRlogo.png" alt="M &amp; R Design and Development">
+            </div>
+        </div>
+        <div id="copyright">
+            <p>Copyright 2013 - Central School Manor</p>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <!--siteScript-->
+    <script type="text/javascript" src="js/floorPlans.js"></script>
+    <script>
+            menuRight = document.getElementById("mobileNav");
+        
+
+            menuLeft.onclick = function() {
+                menuRight.classList.toggle("mobileMenu-Open");
+            }
+    </script>
+  </body>
+</html>
